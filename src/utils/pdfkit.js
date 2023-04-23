@@ -18,7 +18,7 @@ async function createInvoice(invoice, path) {
 
 function generateHeader(doc) {
     doc
-        .image("logo.jpeg", 50, 45, { width: 50 }) // 50 left , 45 top , width 50 pixel
+        .image("https://res.cloudinary.com/dfcww4y5z/image/upload/v1682262327/logo_eq5qa9.png", 50, 45, { width: 50 }) // 50 left , 45 top , width 50 pixel
         .fillColor("#09c") // دا هيتبطبق على كل اللى بعدو
         .fontSize(20) // will apply on the next text
         .text("Route Company", 110, 57) // the font size will be 20 
